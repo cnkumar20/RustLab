@@ -1,6 +1,7 @@
-use rand::Rng;
-use std::cmp::Ordering;
-use std::io;
+//use rand::Rng;
+//use std::cmp::Ordering;
+//use std::io;
+/*
 fn main() {
     println!("Guess the number!");
 
@@ -21,4 +22,13 @@ fn main() {
         Ordering::Equal => println!("You win!"),
     }
 
+
+}
+
+ */
+fn main() {
+    let mut s = String::from("Hello World!!!!");
+    println!("{}",s);
+    s.push_str("from Nandiesh");
+    println!("{}",s)
 }
